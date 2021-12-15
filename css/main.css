@@ -350,8 +350,6 @@ a{
 
 /* Plans */
 .plans {
-    min-width: 500px;
-    margin: 0 auto;
     transition: transform 0.2s ease-in;
 }
 
@@ -361,6 +359,11 @@ a{
 
 .plan--popular:hover {
     transform: scale(1.15);
+}
+
+.plan--container .card {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .plan__name {
@@ -410,6 +413,10 @@ a{
     row-gap: 80px;
 }
 
+.plans .card {
+    max-width: 500px;
+}
+
 @media screen and (min-width: 1024px) {
     .plan__name {
         font-size:1.4rem ;
@@ -423,15 +430,15 @@ a{
     .plan__description {
         font-size: 1.7rem;
     }
-    .plans {
-        min-width: 340px;
-    }
     .plan--grid {
         margin:0;
         column-gap: 40px;
     }
     .plan--popular {
         transform: scale(1.1);
+    }
+    .plans {
+        min-width: 340px;
     }
 }
 

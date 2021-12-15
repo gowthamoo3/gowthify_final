@@ -19,6 +19,7 @@
   "homepage": "https://github.com/gowthamoo3/gowthify_final#readme",
   "devDependencies": {
     "cssnano": "^5.0.12",
-    "postcss": "^8.4.5"
+    "postcss": "^8.4.5",
+    "parcel-bundler": "^1.12.5"
   }
 }

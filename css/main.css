@@ -889,6 +889,9 @@ a{
     .showcase .media__content {
         font-size: 2rem;
     }
+    .showcase__image {
+        width:100%;
+    }
 }
 
 /* Footer */
